@@ -1,0 +1,53 @@
+/* styles.css */
+
+body {
+    background-color: #f7f9fc; /* Light background */
+}
+
+h1 {
+    color: #4A90E2; /* Blue heading color */
+}
+
+table {
+    border: 1px solid #dee2e6;
+}
+
+thead {
+    background-color: #6f42c1; /* Indigo header */
+    color: #ffffff; /* White text */
+}
+
+tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+.btn-green {
+    background-color: #28a745;
+    color: #ffffff;
+}
+
+.btn-green:hover {
+    background-color: #218838;
+}
+
+.btn-yellow {
+    background-color: #ffc107;
+    color: #212529;
+}
+
+.btn-yellow:hover {
+    background-color: #e0a800;
+}
+
+.btn-red {
+    background-color: #dc3545;
+    color: #ffffff;
+}
+
+.btn-red:hover {
+    background-color: #c82333;
+}
